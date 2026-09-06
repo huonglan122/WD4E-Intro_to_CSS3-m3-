@@ -1,4 +1,44 @@
-body{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 150%;
+/* 1. Thẻ body: giữ lại họ phông chữ có sẵn và chỉnh lại kích thước chữ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+/* 2. Thẻ header: đổi màu nền */
+header {
+    background-color: #1a365d;
+}
+
+/* 3. Thẻ nav: đổi màu nền */
+nav {
+    background-color: #2b6cb0;
+}
+
+/* 4. Thẻ main: đổi màu nền và kích thước phông chữ */
+main {
+    background-color: #f7fafc;
+    font-size: 1.1rem;
+}
+
+/* 5. Thẻ footer: đổi màu nền */
+footer {
+    background-color: #2d3748;
+}
+
+/* 6. Thẻ li: đổi thuộc tính hiển thị (display) và chiều rộng (width) */
+li {
+    display: inline-block;
+    width: 120px;
+}
+
+/* 7. Thẻ h1: đổi căn chỉnh văn bản, họ phông chữ và màu sắc */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+}
+
+/* 8. Thẻ p: đổi thuộc tính chiều cao dòng */
+p {
+    line-height: 1.6;
 }
