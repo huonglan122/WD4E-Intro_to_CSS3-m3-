@@ -1,4 +1,4 @@
-/* 1. Thẻ body: họ phông chữ và kích thước phông chữ */
+/* 1. Thẻ body: họ phông chữ và kích thước */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -16,16 +16,17 @@ nav {
 
 /* 4. Thẻ main: màu nền và kích thước phông chữ */
 main {
-    background-color: #f7fafc;
+    background-color: #ffffff;
     font-size: 1.1rem;
 }
 
-/* 5. Thẻ footer: màu nền */
+/* 5. Thẻ footer: màu nền và màu chữ trắng rõ nét */
 footer {
     background-color: #2d3748;
+    color: #ffffff;
 }
 
-/* 6. Thẻ li: hiển thị hàng ngang và chiều rộng */
+/* 6. Thẻ li: hiển thị hàng ngang và độ rộng */
 li {
     display: inline-block;
     width: 140px;
@@ -43,13 +44,13 @@ p {
     line-height: 1.6;
 }
 
-/* 9. Bổ sung sửa lỗi WAVE Contrast: Chuyển màu chữ các đường link nổi bật trên nền tối */
-nav a, 
-footer a {
+/* BỔ SUNG ĐỂ SỬA LỖI ĐỌC CHỮ VÀ BÁO LỖI WAVE */
+nav a {
     color: #ffffff;
     font-weight: bold;
 }
 
-main a {
-    color: #1a365d;
+/* Đổi đường link trong footer sang màu xanh sáng để nổi bật trên nền tối */
+footer a {
+    color: #90cdf4;
 }
