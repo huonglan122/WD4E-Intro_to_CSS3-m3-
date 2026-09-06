@@ -1,44 +1,54 @@
-/* 1. Thẻ body: giữ lại họ phông chữ có sẵn và chỉnh lại kích thước chữ */
+/* 1. Thẻ body: họ phông chữ và kích thước phông chữ */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
 
-/* 2. Thẻ header: đổi màu nền */
+/* 2. Thẻ header: màu nền */
 header {
     background-color: #1a365d;
 }
 
-/* 3. Thẻ nav: đổi màu nền */
+/* 3. Thẻ nav: màu nền */
 nav {
     background-color: #2b6cb0;
 }
 
-/* 4. Thẻ main: đổi màu nền và kích thước phông chữ */
+/* 4. Thẻ main: màu nền và kích thước phông chữ */
 main {
     background-color: #f7fafc;
     font-size: 1.1rem;
 }
 
-/* 5. Thẻ footer: đổi màu nền */
+/* 5. Thẻ footer: màu nền */
 footer {
     background-color: #2d3748;
 }
 
-/* 6. Thẻ li: đổi thuộc tính hiển thị (display) và chiều rộng (width) */
+/* 6. Thẻ li: hiển thị hàng ngang và chiều rộng */
 li {
     display: inline-block;
-    width: 120px;
+    width: 140px;
 }
 
-/* 7. Thẻ h1: đổi căn chỉnh văn bản, họ phông chữ và màu sắc */
+/* 7. Thẻ h1: căn giữa, phông chữ và màu chữ */
 h1 {
     text-align: center;
     font-family: 'Georgia', serif;
     color: #ffffff;
 }
 
-/* 8. Thẻ p: đổi thuộc tính chiều cao dòng */
+/* 8. Thẻ p: chiều cao dòng */
 p {
     line-height: 1.6;
+}
+
+/* BỔ SUNG: Định dạng đường link để không bị chìm trên nền tối */
+nav a, footer a {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+main a {
+    color: #2b6cb0;
 }
